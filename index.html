@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Montre connectée SOS – modèle 3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c" aria-label="Modèle 3D de la montre, faites glisser pour la tourner"></canvas>
+<h1>Montre connectée SOS<small>Faites glisser pour tourner, molette ou pincement pour zoomer</small></h1>
+<div class="bar">
+  <button data-v="face">Face</button>
+  <button data-v="three">Trois-quarts</button>
+  <button data-v="side">Profil</button>
+  <button data-v="back">Dos</button>
+  <button id="spin" aria-pressed="true">Rotation auto</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
